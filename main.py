@@ -7,7 +7,7 @@ read_developer = input('Игры какого разработчика вас и
 read_platform = input('На какой операционной системе вы хотите играть?\n')
 read_year = input('Игры какого года выхода вас интересуют? (можете ввести промежуток, например 1999-2005)\n')
 read_cost = input('Какая цена игры вам предпочтительна (можете использовать <, например <100)\n')
-read_rating = input('Положительных оценок игр обязательно должно быть больше отрицательных? (Введите ~+да+~ или ~+нет+~) \n').lower()
+read_rating = input('Положительных оценок игр обязательно должно быть больше отрицательных? (Ответьте да или нет) \n').lower()
 
 norm_genre = list([genre.lstrip().capitalize() for genre in read_genre.split(',')])
 norm_category = list([category.lstrip().title() for category in read_category.split(',')])
